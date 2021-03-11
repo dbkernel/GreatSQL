@@ -21,7 +21,7 @@ GreatSQL版本进一步提升了MGR的性能及可靠性，并修复了众多bug
 
 # 版本历史
 ---
-- Changes in GreatSQL 8.0.23 (2021-3-20) 
+- [Changes in GreatSQL 8.0.23 (2021-3-20)](https://gitee.com/GreatSQL/GreatSQL/blob/master/relnotes/changes-greatsql-8-0-22.md)
 
 
 
