@@ -1,6 +1,3 @@
-### Synopsis(*)
-
-
 ### Description(*)
 
 
