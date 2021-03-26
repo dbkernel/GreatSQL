@@ -39,10 +39,6 @@ GreatSQL版本进一步提升了MGR的性能及可靠性，并修复了众多bug
 
 # 联系我们
 ---
-扫码加入GreatSQL用户交流群
-
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0322/103613_a158c08a_8779455.jpeg "greatsql-wx-group-qrcode.jpg")
-
 
 扫码关注微信公众号
 
