@@ -22,7 +22,7 @@ GreatSQL版本进一步提升了MGR的性能及可靠性，并修复了众多bug
 
 # 注意事项
 ---
-GreatSQL是基于Percona Server的，由于后者需要依赖jemalloc库，因此需要自己手动先安装一下
+运行GreatSQL需要依赖jemalloc库，因此请先先安装上
 ```
 yum -y install jemalloc jemalloc-devel
 ```
@@ -51,6 +51,7 @@ yum -y install jemalloc jemalloc-devel
 # 使用文档
 ---
 - [使用文档 gitee](https://gitee.com/GreatSQL/GreatSQL/wikis)
+- [MySQL MGR专栏文章](https://mp.weixin.qq.com/mp/homepage?__biz=MjM5NzAzMTY4NQ==&hid=16&sn=9d3d21966d850dcf158e5b676d9060ed&scene=18#wechat_redirect)
 
 
 # 问题反馈

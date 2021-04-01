@@ -22,7 +22,7 @@
 - 在MGR节点正式拉起之前，务必设置```super_read_only=ON```（或者确保此时不会有人修改数据）
 - 选项```group_replication_unreachable_majority_timeout```建议不要设置，否则网络分区的时候，给用户返回错误，但其它分区多数派已经提交了事务
 - 出于问题诊断需要，建议设置```log_error_verbosity=3```
-- GreatSQL是基于Percona Server的，由于后者需要依赖jemalloc库，因此需要自己手动先安装一下
+- 运行GreatSQL需要依赖jemalloc库，因此请先先安装上
 ```
 yum -y install jemalloc jemalloc-devel
 ```
