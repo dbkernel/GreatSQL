@@ -20,6 +20,27 @@ GreatSQL版本进一步提升了MGR的性能及可靠性，并修复了众多bug
 - 优化MGR DEBUG日志输出格式
 - 修复了可能导致数据丢失、性能抖动等多个缺陷/bug问题
 
+# 注意事项
+---
+GreatSQL是基于Percona Server的，由于后者需要依赖jemalloc库，因此需要自己手动先安装一下
+```
+yum -y install jemalloc jemalloc-devel
+```
+也可以把自行安装的lib库so文件路径加到系统配置文件中，例如：
+```
+[root@greatdb]# cat /etc/ld.so.conf
+/usr/local/lib64/
+```
+而后执行下面的操作加载libjemalloc库，并确认是否已存在
+```
+[root@greatdb]# ldconfig
+
+[root@greatdb]# ldconfig -p | grep libjemalloc
+        libjemalloc.so.1 (libc6,x86-64) => /usr/local/lib64/libjemalloc.so.1
+        libjemalloc.so (libc6,x86-64) => /usr/local/lib64/libjemalloc.so
+```
+就可以正常启动GreatSQL服务了。
+
 
 # 版本历史
 ---
