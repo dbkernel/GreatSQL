@@ -45,6 +45,7 @@ yum -y install jemalloc jemalloc-devel
 # 版本历史
 ---
 - [GreatSQL 更新说明 8.0.22(2021-4-1)](https://gitee.com/GreatSQL/GreatSQL/blob/master/relnotes/changes-greatsql-8-0-22.md)
+- [GreatSQL 更新说明 8.0.22 v20210410(2021-4-10)](https://gitee.com/GreatSQL/GreatSQL/blob/master/relnotes/changes-greatsql-8-0-22-v20210410.md)
 
 
 
