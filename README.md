@@ -1,11 +1,11 @@
 # 关于 GreatSQL
 --- 
 
-GreatSQL是源于Percona server的分支版本，除了Percona server已有的稳定可靠、高效、管理更方便等优势外，特别是进一步提升了MGR（MySQL Group Replication）的性能及可靠性，以及众多bug修复。
+GreatSQL是源于Percona Server的分支版本，除了Percona Server已有的稳定可靠、高效、管理更方便等优势外，特别是进一步提升了MGR（MySQL Group Replication）的性能及可靠性，以及众多bug修复。
 
-GreatSQL可以作为MySQL或Percona server的可选替代方案，用于线上生产环境。
+GreatSQL可以作为MySQL或Percona Server的可选替代方案，用于线上生产环境。
 
-GreatSQL完全免费并兼容MySQL或Percona server。
+GreatSQL完全免费并兼容MySQL或Percona Server。
 
 
 # 版本特性
