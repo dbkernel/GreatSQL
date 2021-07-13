@@ -56,6 +56,9 @@ yum -y install jemalloc jemalloc-devel
 - [MySQL MGR专栏文章](https://mp.weixin.qq.com/mp/homepage?__biz=MjM5NzAzMTY4NQ==&hid=16&sn=9d3d21966d850dcf158e5b676d9060ed&scene=18#wechat_redirect)
 - [MGR优化配置参考](https://gitee.com/GreatSQL/GreatSQL/wikis/MGR%E6%9C%80%E4%BD%B3%E9%85%8D%E7%BD%AE%E5%8F%82%E8%80%83?sort_id=4163506)
 
+# 相关资源
+[GreatSQL-Docker](https://gitee.com/GreatSQL/GreatSQL-Docker)，在Docker中运行GreatSQL。
+[GreatSQL-Ansible](https://gitee.com/GreatSQL/GreatSQL-Ansible)，利用ansible一键安装GreatSQL并完成MGR集群部署。
 
 # 问题反馈
 ---
