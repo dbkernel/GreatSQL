@@ -23,6 +23,7 @@ RUN cd /tmp/ && tar -xzvf git-v2.27.0.tar.gz && cd git-2.27.0 && make prefix=/op
 RUN mv /usr/bin/git /usr/bin/git.bk && ln -s /opt/git/bin/git /usr/bin/git
 
 #patchelf, https://github.com/NixOS/patchelf/archive/refs/tags/0.12.tar.gz, 下载后重命名为 patchelf-0.12.tar.gz
+#如果编译过程报错，再手动打补丁 https://github.com/NixOS/patchelf/pull/275/files
 COPY patchelf-0.12.tar.gz /tmp/
 RUN cd /tmp && tar -xzvf patchelf-0.12.tar.gz && cd patchelf-0.12 && ./bootstrap.sh && ./configure && make && make install
 
