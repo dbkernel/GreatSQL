@@ -124,10 +124,10 @@ drwxr-xr-x 3 root root      4096 Jul 28 06:34 rh
 -DUSE_ETAGS=OFF \-DUSE_CSCOPE=OFF -DWITH_TOKUDB=OFF \
 -DBUILD_CONFIG=mysql_release -DCMAKE_BUILD_TYPE=RelWithDebInfo \
 -DFEATURE_SET=community \
--DCMAKE_INSTALL_PREFIX=/usr/local/GreatSQL-8.0.25-15-Linux.aarch64 \
--DMYSQL_DATADIR=/usr/local/GreatSQL-8.0.25-15-Linux.aarch64/data \
--DROUTER_INSTALL_LIBDIR=/usr/local/GreatSQL-8.0.25-15-Linux.aarch64/lib/mysqlrouter/private \
--DROUTER_INSTALL_PLUGINDIR=/usr/local/GreatSQL-8.0.25-15-Linux.aarch64/lib/mysqlrouter/plugin \
+-DCMAKE_INSTALL_PREFIX=/usr/local/GreatSQL-8.0.25-15-Linux \
+-DMYSQL_DATADIR=/usr/local/GreatSQL-8.0.25-15-Linux/data \
+-DROUTER_INSTALL_LIBDIR=/usr/local/GreatSQL-8.0.25-15-Linux/lib/mysqlrouter/private \
+-DROUTER_INSTALL_PLUGINDIR=/usr/local/GreatSQL-8.0.25-15-Linux/lib/mysqlrouter/plugin \
 -DCOMPILATION_COMMENT='GreatSQL (GPL), Release 15, Revision e36e91b7242' \
 -DWITH_PAM=ON -DWITH_ROCKSDB=ON -DROCKSDB_DISABLE_AVX2=1 -DROCKSDB_DISABLE_MARCH_NATIVE=1 \
 -DWITH_INNODB_MEMCACHED=ON -DWITH_ZLIB=bundled -DWITH_NUMA=ON -DWITH_LDAP=system \
