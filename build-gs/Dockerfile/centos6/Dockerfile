@@ -57,12 +57,10 @@ RUN yum install -y gperf jemalloc zstd zstd-devel time bison libeatmydata jemall
 
 RUN yum install -y devtoolset-8-gcc-c++ devtoolset-8-binutils devtoolset-8-gcc devtoolset-8-gcc-c++ \
     ccache devtoolset-8-libasan-devel devtoolset-8-libubsan-devel devtoolset-8-valgrind devtoolset-8-valgrind-devel libtool libzstd-devel \
-    re2-devel redhat-lsb-core lz4-static
+    re2-devel redhat-lsb-core lz4-static patchelf
 
 RUN ln -fs /usr/bin/cmake3 /usr/bin/cmake
 
 RUN yum install -y libcurl-devel
-
-RUN wget http://gitlab.greatopensource.com/centos6/binary/raw/master/patchelf -O /usr/bin/patchelf && chmod 777 /usr/bin/patchelf
 
 CMD ["tail", "-f", "/dev/null"]
